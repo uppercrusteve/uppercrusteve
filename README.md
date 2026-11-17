@@ -12,10 +12,10 @@
 
 把研究流程拆成可测试的环节：
 
-**设计** → [splitplot-designer](https://github.com/YilongXiao/splitplot-designer) · [vinewatch](https://github.com/YilongXiao/vinewatch)
-**分析** → [aggcarbon](https://github.com/YilongXiao/aggcarbon) · [vineclim](https://github.com/YilongXiao/vineclim) · [rusle-terrace](https://github.com/YilongXiao/rusle-terrace)
-**写作** → [thesis-forge](https://github.com/YilongXiao/thesis-forge) · [citecheck-zh](https://github.com/YilongXiao/citecheck-zh)
-**传播** → [yunnan-vineyard-atlas](https://github.com/YilongXiao/yunnan-vineyard-atlas)
+**设计** → [splitplot-designer](https://github.com/uppercrusteve/splitplot-designer) · [vinewatch](https://github.com/uppercrusteve/vinewatch)
+**分析** → [aggcarbon](https://github.com/uppercrusteve/aggcarbon) · [vineclim](https://github.com/uppercrusteve/vineclim) · [rusle-terrace](https://github.com/uppercrusteve/rusle-terrace)
+**写作** → [thesis-forge](https://github.com/uppercrusteve/thesis-forge) · [citecheck-zh](https://github.com/uppercrusteve/citecheck-zh)
+**传播** → [yunnan-vineyard-atlas](https://github.com/uppercrusteve/yunnan-vineyard-atlas)
 
 ## 数据原则
 
