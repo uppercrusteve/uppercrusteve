@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Yilong Xiao, highland vineyard research, reproducible field tools">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0C0F14"/>
+      <stop offset="1" stop-color="#151A21"/>
+    </linearGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4A2029"/>
+      <stop offset="1" stop-color="#2A1116"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="300" fill="url(#sky)"/>
+
+  <g stroke="#252B33" fill="none" stroke-width="1">
+    <path d="M-40 60 C 180 30 300 96 470 62 S 760 24 930 58 S 1180 92 1320 54">
+      <animate attributeName="stroke-dashoffset" from="0" to="-260" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-40 92 C 200 66 320 120 500 88 S 780 52 960 86 S 1200 118 1320 82" stroke-dasharray="5 9">
+      <animate attributeName="stroke-dashoffset" from="0" to="-280" dur="11s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-40 124 C 210 100 340 150 520 118 S 800 84 980 116 S 1210 146 1320 112" stroke-dasharray="3 11">
+      <animate attributeName="stroke-dashoffset" from="0" to="-280" dur="13s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-40 156 C 220 134 360 178 540 148 S 820 116 1000 146 S 1220 172 1320 142" stroke-dasharray="2 14">
+      <animate attributeName="stroke-dashoffset" from="0" to="-320" dur="15s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 5; 0 0" dur="12s" repeatCount="indefinite"/>
+    <path d="M-20 236 C 120 210 200 246 300 224 S 430 188 520 214 S 650 246 760 218 S 900 186 1010 212 S 1180 240 1300 210 L1300 300 L-20 300 Z" fill="url(#ridge)" opacity="0.95"/>
+    <path d="M-20 262 C 140 246 240 274 360 258 S 520 232 640 256 S 800 280 920 258 S 1100 236 1300 262 L1300 300 L-20 300 Z" fill="#1B0D11"/>
+  </g>
+
+  <g>
+    <rect x="72" y="70" width="46" height="4" fill="#B4485A"/>
+    <text x="72" y="132" font-family="'Microsoft YaHei','Noto Sans CJK SC',-apple-system,sans-serif" font-size="62" font-weight="700" fill="#F2EAD8">Yilong Xiao</text>
+    <text x="74" y="172" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="25" fill="#C9A98A">高海拔葡萄园 · 可复现的田间研究工具</text>
+    <text x="75" y="200" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#7E8894">28.55°N 98.86°E · 2,200 m · Diqing, Yunnan · 试验在田里，公式和测试在仓库里</text>
+  </g>
+
+  <g font-family="'Microsoft YaHei',sans-serif" text-anchor="end">
+    <text x="1206" y="132" font-size="34" font-weight="700" fill="#F2EAD8">8</text>
+    <text x="1206" y="152" font-size="12" fill="#7E8894">open tools</text>
+    <text x="1206" y="188" font-size="34" font-weight="700" fill="#F2EAD8">457</text>
+    <text x="1206" y="208" font-size="12" fill="#7E8894">tests passing</text>
+  </g>
+
+  <g font-family="'Microsoft YaHei',sans-serif" text-anchor="end">
+    <text x="1206" y="246" font-size="12" fill="#6E7883">updated by CI, not by hand</text>
+  </g>
+</svg>
