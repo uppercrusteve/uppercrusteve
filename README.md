@@ -11,7 +11,7 @@
 | **[藤候 VineWatch →](https://uppercrusteve.github.io/vinewatch/)** | 离线物候（BBCH）记录 PWA。山里没信号也能记，照片在本地压缩，数据只留在这台设备，随时导出 CSV / GeoJSON。手机上试最直观。 |
 | **[云岭之上 · 图集 →](https://uppercrusteve.github.io/yunnan-vineyard-atlas/)** | 德钦葡萄园数据图集。同一年的四种面积口径并排展示，不取平均，每条数字都带出处与检索日期。 |
 
-![仓库数据：8 个仓库、457 项测试、8/8 CI 通过，由 Actions 每天生成](./assets/stats.svg)
+![仓库数据：仓库数、测试数、CI 结论与星标，由 Actions 每天生成](./assets/stats.svg)
 
 ## 命令行工具
 
