@@ -32,7 +32,7 @@
   {
     "repo": "thesis-forge",
     "group": "写作",
-    "tests": 55,
+    "tests": 56,
     "blurb": "Markdown 到学位论文 DOCX，附格式体检"
   },
   {
