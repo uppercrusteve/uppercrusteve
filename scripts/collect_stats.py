@@ -59,6 +59,46 @@ def latest_ci(repo: str) -> str:
         return "unknown"
 
 
+def recent_releases(projects: list[dict], limit: int = 5) -> list[str]:
+    """Newest releases across the listed repos, if any."""
+    found = []
+    for item in projects:
+        repo = item["repo"]
+        try:
+            data = get(f"/repos/{OWNER}/{repo}/releases?per_page=3")
+        except Exception:
+            continue
+        for release in data or []:
+            if release.get("draft"):
+                continue
+            published = str(release.get("published_at") or "")[:10]
+            if not published:
+                continue
+            tag = str(release.get("tag_name") or "")
+            found.append((published, repo, tag, str(release.get("html_url") or "")))
+    found.sort(reverse=True)
+    lines = []
+    for published, repo, tag, url in found[:limit]:
+        label = f"{repo} {tag}".strip()
+        lines.append(f"- [{label}]({url}) — {published}")
+    return lines or ["- 还没有发布记录。"]
+
+
+def write_releases_block(lines: list[str]) -> None:
+    readme = ROOT / "README.md"
+    if not readme.is_file():
+        return
+    text = readme.read_text(encoding="utf-8")
+    start, end = "<!-- releases:start -->", "<!-- releases:end -->"
+    if start not in text or end not in text:
+        return
+    head, rest = text.split(start, 1)
+    _, tail = rest.split(end, 1)
+    body = start + chr(10) + chr(10).join(lines) + chr(10) + end
+    readme.write_text(head + body + tail, encoding="utf-8")
+    print(f"updated README releases block ({len(lines)} lines)")
+
+
 def main() -> int:
     projects = json.loads((ROOT / "_data/projects.json").read_text(encoding="utf-8"))
     rows = []
@@ -127,6 +167,8 @@ def main() -> int:
         text = re.sub(r'(<text x="1206" y="188"[^>]*>)\d+(</text>)', rf"\g<1>{tests_total}\g<2>", text)
         hero.write_text(text, encoding="utf-8")
         print(f"updated hero.svg ({len(rows)} tools, {tests_total} tests)")
+
+    write_releases_block(recent_releases(projects))
 
     out = ROOT / "assets" / "stats.svg"
     out.parent.mkdir(parents=True, exist_ok=True)

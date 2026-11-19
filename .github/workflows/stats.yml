@@ -34,10 +34,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg
+          git add assets/stats.svg assets/hero.svg README.md
           if git diff --cached --quiet; then
             echo "no change"
           else
-            git commit -m "chore: refresh stats card"
+            git commit -m "chore: refresh stats card and recent releases"
             git push
           fi
