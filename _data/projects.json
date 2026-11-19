@@ -46,5 +46,17 @@
     "group": "传播",
     "tests": 58,
     "blurb": "香格里拉葡萄园图集，四种面积口径并排"
+  },
+  {
+    "repo": "ams-check",
+    "group": "健康",
+    "tests": 23,
+    "blurb": "高处上升速率与 Lake Louise 自评，离线可用"
+  },
+  {
+    "repo": "zh-punct",
+    "group": "排版",
+    "tests": 86,
+    "blurb": "中文标点形态体检，误报优先压下去"
   }
 ]

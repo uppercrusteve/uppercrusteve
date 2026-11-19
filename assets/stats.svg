@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="450" viewBox="0 0 1280 450" role="img" aria-label="Portfolio data: 8 repositories, 470 tests, 8 green builds">
-<rect width="1280" height="450" rx="10" fill="#0E1116"/>
-<rect x="0.5" y="0.5" width="1279" height="449" rx="10" fill="none" stroke="#1E242C"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="518" viewBox="0 0 1280 518" role="img" aria-label="Portfolio data: 10 repositories, 579 tests, 10 green builds">
+<rect width="1280" height="518" rx="10" fill="#0E1116"/>
+<rect x="0.5" y="0.5" width="1279" height="517" rx="10" fill="none" stroke="#1E242C"/>
 <text x="36" y="44" font-family="'Microsoft YaHei',sans-serif" font-size="15" fill="#F2EAD8">仓库数据 · 由 Actions 每天生成，不手改</text>
-<text x="36" y="66" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">最近更新 2026-11-19 08:58 UTC</text>
-<text x="36" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">8 个仓库</text>
+<text x="36" y="66" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">最近更新 2026-11-19 09:43 UTC</text>
+<text x="36" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">10 个仓库</text>
 <text x="36" y="120" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#7E8894">全部公开</text>
-<text x="336" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">470 项测试</text>
+<text x="336" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">579 项测试</text>
 <text x="336" y="120" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#7E8894">pytest + vitest</text>
-<text x="636" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">8/8 CI 通过</text>
+<text x="636" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">10/10 CI 通过</text>
 <text x="636" y="120" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#7E8894">main 分支最近一次</text>
 <text x="936" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">0 stars</text>
 <text x="936" y="120" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#7E8894">实时</text>
@@ -63,5 +63,18 @@
 <text x="1090" y="396" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
 <text x="1128" y="396" font-family="sans-serif" font-size="13" fill="#5FA97C">✓</text>
 <text x="1224" y="396" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">1 天前</text>
-<text x="36" y="434" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762">测试数取自各仓库测试文件，CI 状态取自最近一次工作流运行；星标与推送时间为 GitHub API 实时值。</text>
+<rect x="28" y="409" width="1224" height="30" rx="5" fill="#131820"/>
+<text x="40" y="430" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#F2EAD8">ams-check</text>
+<text x="238" y="430" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">高处上升速率与 Lake Louise 自评，离线可用</text>
+<text x="1010" y="430" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">23 tests</text>
+<text x="1090" y="430" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
+<text x="1128" y="430" font-family="sans-serif" font-size="13" fill="#5FA97C">✓</text>
+<text x="1224" y="430" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">今天</text>
+<text x="40" y="464" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#F2EAD8">zh-punct</text>
+<text x="238" y="464" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">中文标点形态体检，误报优先压下去</text>
+<text x="1010" y="464" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">86 tests</text>
+<text x="1090" y="464" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
+<text x="1128" y="464" font-family="sans-serif" font-size="13" fill="#5FA97C">✓</text>
+<text x="1224" y="464" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">今天</text>
+<text x="36" y="502" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762">测试数取自各仓库测试文件，CI 状态取自最近一次工作流运行；星标与推送时间为 GitHub API 实时值。</text>
 </svg>
