@@ -7,6 +7,7 @@ keeps working when external endpoints are slow or blocked.
 from __future__ import annotations
 
 import json
+import re
 import os
 import ssl
 import urllib.request
@@ -118,6 +119,14 @@ def main() -> int:
 
     parts.append(f'<text x="36" y="{height - 16}" font-family="\'Microsoft YaHei\',sans-serif" font-size="11" fill="{DIM}">测试数取自各仓库测试文件，CI 状态取自最近一次工作流运行；星标与推送时间为 GitHub API 实时值。</text>')
     parts.append("</svg>")
+
+    hero = ROOT / "assets" / "hero.svg"
+    if hero.is_file():
+        text = hero.read_text(encoding="utf-8")
+        text = re.sub(r'(<text x="1206" y="132"[^>]*>)\d+(</text>)', rf"\g<1>{len(rows)}\g<2>", text)
+        text = re.sub(r'(<text x="1206" y="188"[^>]*>)\d+(</text>)', rf"\g<1>{tests_total}\g<2>", text)
+        hero.write_text(text, encoding="utf-8")
+        print(f"updated hero.svg ({len(rows)} tools, {tests_total} tests)")
 
     out = ROOT / "assets" / "stats.svg"
     out.parent.mkdir(parents=True, exist_ok=True)

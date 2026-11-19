@@ -41,9 +41,9 @@
   </g>
 
   <g font-family="'Microsoft YaHei',sans-serif" text-anchor="end">
-    <text x="1206" y="132" font-size="34" font-weight="700" fill="#F2EAD8">8</text>
+    <text x="1206" y="132" font-size="34" font-weight="700" fill="#F2EAD8">10</text>
     <text x="1206" y="152" font-size="12" fill="#7E8894">open tools</text>
-    <text x="1206" y="188" font-size="34" font-weight="700" fill="#F2EAD8">457</text>
+    <text x="1206" y="188" font-size="34" font-weight="700" fill="#F2EAD8">579</text>
     <text x="1206" y="208" font-size="12" fill="#7E8894">tests passing</text>
   </g>
 

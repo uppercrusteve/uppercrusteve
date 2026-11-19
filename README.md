@@ -10,7 +10,7 @@
 
 这几样跟葡萄园没关系，谁都能用。
 
-| 用什么 | 解决什么 |
+| 用什么&nbsp;&nbsp;&nbsp;&nbsp; | 解决什么 |
 |---|---|
 | **[高原徒步助手 →](https://uppercrusteve.github.io/ams-check/)** | 点开就用。按昨晚睡眠海拔和今天最高海拔算净上升，再按 Lake Louise 四项量表自评，红旗项直接判下撤。离线可开，数据只留本机。线路海拔是参考值、没实测，页面里标了。 |
 | **[zh-punct](https://github.com/uppercrusteve/zh-punct)** | `pipx install git+https://github.com/uppercrusteve/zh-punct`。查全半角混用、成对符号不闭合、标点连写、省略号破折号写法。代码块、URL、文献行都先掩掉再判，误报优先压下去。 |
