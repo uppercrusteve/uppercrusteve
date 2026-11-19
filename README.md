@@ -49,7 +49,7 @@
 
 ## 这页的维护
 
-头图是手写 SVG，等高线用 SMIL 缓慢流动。下面的数据卡由 [`.github/workflows/stats.yml`](./.github/workflows/stats.yml) 每天 01:30 UTC 抓 GitHub API 与各仓库 CI 结论生成并提交，不靠第三方徽章服务；星标数为实时值，现在还是 0，说明还没被看到。
+头图是手写 SVG，等高线用 SMIL 缓慢流动。下面的数据卡由 [`.github/workflows/stats.yml`](./.github/workflows/stats.yml) 每天 01:30 UTC 抓 GitHub API 与各仓库 CI 结论生成并提交，不靠第三方徽章服务；星标和推送时间也是 API 实时值——现在还没什么星，说明还没被看到。
 
 ## 联系
 
