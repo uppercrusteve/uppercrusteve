@@ -30,16 +30,14 @@
 
 ## 做过的事
 
-| 类别 | 具体内容 |
-|---|---|
-| 试验设计 | 裂区与随机完全区组：处理结构、缓冲行、可复现随机化、误差分层、Monte Carlo 功效与区组数建议 |
-| 土壤碳 | 湿筛分级、团聚体稳定性、等效土壤质量校正、POC/MAOC 物理分组、CPI/CMI 与活性指数、按 block 的 bootstrap |
-| 气候指标 | GDD、Huglin、冷夜、霜冻日、生长季长度；POWER API 拉取、缺测阈值、气温直减率订正 |
-| 空间分析 | rasterio / GDAL 读写、坡度坡向、D8 流向与汇流累积、RUSLE 因子计算、风险分级 |
-| 工程 | Python 3.11+、pytest、ruff、类型标注；原生 JavaScript、IndexedDB、Service Worker、PWA 离线缓存 |
-| 文档 | OOXML 样式与域、三线表、题注编号；引文核对；Markdown / Pandoc / Quarto 工具链 |
-| 排版 | 中文标点形态检查、误报掩码层（代码块 / URL / front matter / 文献行）、安全的自动修复边界 |
-| 前端与隐私 | 原生 ES 模块、Service Worker 预缓存与后台更新、localStorage、纯前端不上传；量表分档与阈值单测 |
+- **试验设计** 裂区与随机完全区组：处理结构、缓冲行、可复现随机化、误差分层、Monte Carlo 功效与区组数建议
+- **土壤碳** 湿筛分级、团聚体稳定性、等效土壤质量校正、POC/MAOC 物理分组、CPI/CMI 与活性指数、按 block 的 bootstrap
+- **气候指标** GDD、Huglin、冷夜、霜冻日、生长季长度；POWER API 拉取、缺测阈值、气温直减率订正
+- **空间分析** rasterio / GDAL 读写、坡度坡向、D8 流向与汇流累积、RUSLE 因子计算、风险分级
+- **工程** Python 3.11+、pytest、ruff、类型标注；原生 JavaScript、IndexedDB、Service Worker、PWA 离线缓存
+- **文档** OOXML 样式与域、三线表、题注编号；引文核对；Markdown / Pandoc / Quarto 工具链
+- **排版** 中文标点形态检查、误报掩码层（代码块 / URL / front matter / 文献行）、安全的自动修复边界
+- **前端与隐私** 原生 ES 模块、Service Worker 预缓存与后台更新、localStorage、纯前端不上传；量表分档与阈值单测
 
 ## 几条固定做法
 
