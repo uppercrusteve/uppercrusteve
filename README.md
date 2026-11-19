@@ -5,10 +5,10 @@
 工具全部 MIT、带测试、写明边界。哪个不好用或者数字不对，直接开 issue。
 
 <samp>
-<a href="https://uppercrusteve.github.io/yunnan-vineyard-atlas/">数据图集</a> ·
-<a href="#研究工具">研究工具</a> ·
-<a href="#日常小工具">日常小工具</a> ·
-<a href="https://github.com/uppercrusteve/ams-check/issues">报问题</a>
+<nobr><a href="https://uppercrusteve.github.io/yunnan-vineyard-atlas/">数据图集</a></nobr> ·
+<nobr><a href="#研究工具">研究工具</a></nobr> ·
+<nobr><a href="#日常小工具">日常小工具</a></nobr> ·
+<nobr><a href="https://github.com/uppercrusteve/ams-check/issues">报问题</a></nobr>
 </samp>
 
 ## 日常小工具
