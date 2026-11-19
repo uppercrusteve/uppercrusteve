@@ -15,21 +15,16 @@
 
 ## 研究工具
 
-下面这些对应具体研究工序。前两个点开就能用，其余要 `git clone` 后安装，三条命令内出结果。
+前两条点开就能用；后面几条要 `git clone` 后安装，三条命令内出结果。
 
-| 打开 | 是什么 |
-|---|---|
-| **[藤候 VineWatch →](https://uppercrusteve.github.io/vinewatch/)** | 离线物候（BBCH）记录 PWA。山里没信号也能记，照片在本地压缩，数据只留在这台设备，随时导出 CSV / GeoJSON。手机上试最直观。 |
-| **[云岭之上 · 图集 →](https://uppercrusteve.github.io/yunnan-vineyard-atlas/)** | 德钦葡萄园数据图集。同一年的四种面积口径并排展示，不取平均，每条数字都带出处与检索日期。 |
-
-| 工具 | 解决什么 | 上手 |
-|---|---|---|
-| **[splitplot-designer](https://github.com/uppercrusteve/splitplot-designer)** | 裂区试验的随机化、布局图与功效模拟。主区效应用 `block×main` 误差层检验，避免把采样点当重复 | `splitplot power --blocks 4 --effect 0.6` |
-| **[aggcarbon](https://github.com/uppercrusteve/aggcarbon)** | 湿筛团聚体的 MWD、GMD、R>0.25、ESM 校正储量、POC/MAOC、LI、CPI/CMI，带块 bootstrap 区间 | `aggcarbon compute examples/aggregates_demo.csv --reference CK -o out` |
-| **[vineclim](https://github.com/uppercrusteve/vineclim)** | GDD、Huglin、冷夜、霜冻日历；支持 NASA POWER 拉取与海拔订正，未订正/订正双列对照 | `vineclim compute examples/deqin_power_2015_2025.csv --lat 28.5` |
-| **[rusle-terrace](https://github.com/uppercrusteve/rusle-terrace)** | DEM 驱动的坡地葡萄园 RUSLE 筛查：坡度分级、D8 汇流、风险图与汇总；缺米制 CRS 直接报错 | `rusle demo -o out` |
-| **[thesis-forge](https://github.com/uppercrusteve/thesis-forge)** | Markdown → A4 学位论文 DOCX：样式、目录域、三线表、图表题注，外加一次格式体检 | `thesis-forge build thesis.md -o thesis.docx` |
-| **[citecheck-zh](https://github.com/uppercrusteve/citecheck-zh)** | 中文稿件的引文—文献表一致性检查：悬空引用、孤立文献、编号断档、坏 DOI，定位到行号 | `citecheck check manuscript.md` |
+- **[藤候 VineWatch →](https://uppercrusteve.github.io/vinewatch/)** 离线物候（BBCH）记录 PWA。山里没信号也能记，照片在本地压缩，数据只留在这台设备，随时导出 CSV / GeoJSON。手机上试最直观。
+- **[云岭之上 · 图集 →](https://uppercrusteve.github.io/yunnan-vineyard-atlas/)** 德钦葡萄园数据图集。同一年的四种面积口径并排展示，不取平均，每条数字都带出处与检索日期。
+- **[splitplot-designer](https://github.com/uppercrusteve/splitplot-designer)** 裂区试验的随机化、布局图与功效模拟。主区效应用 `block×main` 误差层检验，避免把采样点当重复。`splitplot power --blocks 4 --effect 0.6`
+- **[aggcarbon](https://github.com/uppercrusteve/aggcarbon)** 湿筛团聚体的 MWD、GMD、R>0.25、ESM 校正储量、POC/MAOC、LI、CPI/CMI，带块 bootstrap 区间。`aggcarbon compute examples/aggregates_demo.csv --reference CK -o out`
+- **[vineclim](https://github.com/uppercrusteve/vineclim)** GDD、Huglin、冷夜、霜冻日历；支持 NASA POWER 拉取与海拔订正，未订正/订正双列对照。`vineclim compute examples/deqin_power_2015_2025.csv --lat 28.5`
+- **[rusle-terrace](https://github.com/uppercrusteve/rusle-terrace)** DEM 驱动的坡地葡萄园 RUSLE 筛查：坡度分级、D8 汇流、风险图与汇总；缺米制 CRS 直接报错。`rusle demo -o out`
+- **[thesis-forge](https://github.com/uppercrusteve/thesis-forge)** Markdown → A4 学位论文 DOCX：样式、目录域、三线表、图表题注，外加一次格式体检。`thesis-forge build thesis.md -o thesis.docx`
+- **[citecheck-zh](https://github.com/uppercrusteve/citecheck-zh)** 中文稿件的引文—文献表一致性检查：悬空引用、孤立文献、编号断档、坏 DOI，定位到行号。`citecheck check manuscript.md`
 
 ![仓库数据：仓库数、测试数、CI 结论与星标，由 Actions 每天生成](./assets/stats.svg)
 
