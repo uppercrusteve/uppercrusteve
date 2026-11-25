@@ -23,6 +23,9 @@ pipx install git+https://github.com/uppercrusteve/zh-punct
 zh-punct draft.md
 ```
 
+<!-- autopub:begin 下面到 autopub:end 之间的条目由 nightshift 流水线夜里自动追加；只插新的，不改已有条目，手改也安全 -->
+<!-- autopub:end -->
+
 ## 研究工具
 
 前两条点开就能用。其余 `git clone` 后装，三条命令内出结果。
