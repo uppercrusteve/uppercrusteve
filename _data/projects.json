@@ -1,35 +1,5 @@
 [
   {
-    "repo": "splitplot-designer",
-    "group": "设计",
-    "tests": 49,
-    "blurb": "裂区随机化、布局图与功效模拟"
-  },
-  {
-    "repo": "vinewatch",
-    "group": "记录",
-    "tests": 49,
-    "blurb": "离线物候记录 PWA，数据不出本机"
-  },
-  {
-    "repo": "aggcarbon",
-    "group": "分析",
-    "tests": 60,
-    "blurb": "团聚体稳定性与碳库指标，带 bootstrap 区间"
-  },
-  {
-    "repo": "vineclim",
-    "group": "分析",
-    "tests": 62,
-    "blurb": "GDD / Huglin / 霜冻，网格数据与海拔订正"
-  },
-  {
-    "repo": "rusle-terrace",
-    "group": "分析",
-    "tests": 70,
-    "blurb": "坡地葡萄园 RUSLE 侵蚀筛查"
-  },
-  {
     "repo": "thesis-forge",
     "group": "写作",
     "tests": 56,
@@ -40,12 +10,6 @@
     "group": "写作",
     "tests": 66,
     "blurb": "中文引文—文献表一致性检查"
-  },
-  {
-    "repo": "yunnan-vineyard-atlas",
-    "group": "传播",
-    "tests": 58,
-    "blurb": "香格里拉葡萄园图集，四种面积口径并排"
   },
   {
     "repo": "ams-check",
