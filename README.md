@@ -33,6 +33,15 @@ zh-punct draft.md
 python lint.py ../some-skill-dir            # 人读清单
 ```
 
+
+### [stage-ckpt](https://github.com/uppercrusteve/stage-ckpt)
+
+给夜间流水线的阶段加「步级断点」：断在哪步，下个窗口从哪步续。夜班流水线 2026-11-25 自动产出，未过人工过目。
+
+```bash
+bash example/run-digest.sh
+```
+
 <!-- autopub:end -->
 
 ## 研究工具
