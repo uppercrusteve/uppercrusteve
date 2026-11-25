@@ -53,6 +53,15 @@ python bench.py                    # 默认跑 scorer/score.py，过闸返回 0
 python -m geomlint --print-guides --width 1280 --height 800 --cols 12 --margin 40 --gutter 24 > guides.json
 ```
 
+
+### [skillcc](https://github.com/uppercrusteve/skillcc)
+
+一份 skill 源码，编译出多个 harness 的副本，并用内容哈希确认副本没被手改过。夜班流水线 2026-11-26 自动产出，未过人工过目。
+
+```bash
+python -m skillcc build                       # 校验 + 写 dist/
+```
+
 <!-- autopub:end -->
 
 ## 抓取与清洗

@@ -46,5 +46,11 @@
     "group": "夜班",
     "tests": 36,
     "blurb": "把「版面歪了」变成一组能进 CI 的几何谓词"
+  },
+  {
+    "repo": "skillcc",
+    "group": "夜班",
+    "tests": 57,
+    "blurb": "一份 skill 源码，编译出多个 harness 的副本，并用内容哈希确认副本没被手改过"
   }
 ]
