@@ -42,6 +42,15 @@ python lint.py ../some-skill-dir            # 人读清单
 bash example/run-digest.sh
 ```
 
+
+### [score-bench](https://github.com/uppercrusteve/score-bench)
+
+一个打分器的排序回归台。给人已经挑过的正例和已经扔掉的负例，量出「谁压着谁」。夜班流水线 2026-11-25 自动产出，未过人工过目。
+
+```bash
+python bench.py                    # 默认跑 scorer/score.py，过闸返回 0
+```
+
 <!-- autopub:end -->
 
 ## 研究工具
