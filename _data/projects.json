@@ -58,5 +58,11 @@
     "group": "排版",
     "tests": 86,
     "blurb": "中文标点形态体检，误报优先压下去"
+  },
+  {
+    "repo": "forge-lint",
+    "group": "夜班",
+    "tests": 21,
+    "blurb": "给「一夜之间攒出来的 skill / 工具目录」做体检"
   }
 ]

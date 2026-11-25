@@ -24,6 +24,15 @@ zh-punct draft.md
 ```
 
 <!-- autopub:begin 下面到 autopub:end 之间的条目由 nightshift 流水线夜里自动追加；只插新的，不改已有条目，手改也安全 -->
+
+### [forge-lint](https://github.com/uppercrusteve/forge-lint)
+
+给「一夜之间攒出来的 skill / 工具目录」做体检。规则来自真实出事点，不来自想象。夜班流水线 2026-11-25 自动产出，未过人工过目。
+
+```bash
+python lint.py ../some-skill-dir            # 人读清单
+```
+
 <!-- autopub:end -->
 
 ## 研究工具
