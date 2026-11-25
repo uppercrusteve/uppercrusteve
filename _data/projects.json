@@ -40,5 +40,11 @@
     "group": "夜班",
     "tests": 15,
     "blurb": "一个打分器的排序回归台"
+  },
+  {
+    "repo": "geom-lint",
+    "group": "夜班",
+    "tests": 36,
+    "blurb": "把「版面歪了」变成一组能进 CI 的几何谓词"
   }
 ]

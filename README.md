@@ -44,6 +44,15 @@ bash example/run-digest.sh
 python bench.py                    # 默认跑 scorer/score.py，过闸返回 0
 ```
 
+
+### [geom-lint](https://github.com/uppercrusteve/geom-lint)
+
+把「版面歪了」变成一组能进 CI 的几何谓词。给一张带显式坐标的 HTML/SVG，它按事先固定的参考线逐条判：边缘有没有落在列上、文字有没有离基线、间距是不是节奏的整数倍、块有没有压进 gutter、有没有不明重叠、有没有出画布。每条都指到元素、报出像素差，最后给分和退出码。夜班流水线 2026-11-26 自动产出，未过人工过目。
+
+```bash
+python -m geomlint --print-guides --width 1280 --height 800 --cols 12 --margin 40 --gutter 24 > guides.json
+```
+
 <!-- autopub:end -->
 
 ## 抓取与清洗
