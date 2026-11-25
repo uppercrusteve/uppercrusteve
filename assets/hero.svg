@@ -1,53 +1,96 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="uppercrusteve, scheduled pipelines, data capture, and tools that hold up">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="uppercrusteve，定时流水线、数据抓取与清洗">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0C0F14"/>
-      <stop offset="1" stop-color="#151A21"/>
+    <radialGradient id="blob-a" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#B4485A" stop-opacity="0.58"/>
+      <stop offset="0.62" stop-color="#5A1D2B" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#5A1D2B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob-b" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2E4C6B" stop-opacity="0.8"/>
+      <stop offset="0.6" stop-color="#12263A" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#12263A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob-c" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#6B4A2E" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#33211A" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.62"/>
+      <stop offset="0.28" stop-color="#D9536B" stop-opacity="0.4"/>
+      <stop offset="0.55" stop-color="#5A96C8" stop-opacity="0.28"/>
+      <stop offset="0.82" stop-color="#FFFFFF" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.12"/>
     </linearGradient>
-    <linearGradient id="ridge" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#4A2029"/>
-      <stop offset="1" stop-color="#2A1116"/>
+
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
+
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <filter id="refract" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="17"/>
+    </filter>
+
+    <clipPath id="panel">
+      <rect x="28" y="28" width="1224" height="244" rx="22"/>
+    </clipPath>
   </defs>
 
-  <rect width="1280" height="300" fill="url(#sky)"/>
+  <rect width="1280" height="300" fill="#080B10"/>
 
-  <g stroke="#252B33" fill="none" stroke-width="1">
-    <path d="M-40 60 C 180 30 300 96 470 62 S 760 24 930 58 S 1180 92 1320 54">
-      <animate attributeName="stroke-dashoffset" from="0" to="-260" dur="9s" repeatCount="indefinite"/>
-    </path>
-    <path d="M-40 92 C 200 66 320 120 500 88 S 780 52 960 86 S 1200 118 1320 82" stroke-dasharray="5 9">
-      <animate attributeName="stroke-dashoffset" from="0" to="-280" dur="11s" repeatCount="indefinite"/>
-    </path>
-    <path d="M-40 124 C 210 100 340 150 520 118 S 800 84 980 116 S 1210 146 1320 112" stroke-dasharray="3 11">
-      <animate attributeName="stroke-dashoffset" from="0" to="-280" dur="13s" repeatCount="indefinite"/>
-    </path>
-    <path d="M-40 156 C 220 134 360 178 540 148 S 820 116 1000 146 S 1220 172 1320 142" stroke-dasharray="2 14">
-      <animate attributeName="stroke-dashoffset" from="0" to="-320" dur="15s" repeatCount="indefinite"/>
-    </path>
+  <!-- 玻璃后方与画面共享的色斑 -->
+  <g>
+    <ellipse cx="150" cy="26" rx="250" ry="180" fill="url(#blob-a)">
+      <animate attributeName="cx" values="150;206;150" dur="26s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1010" cy="250" rx="280" ry="210" fill="url(#blob-b)">
+      <animate attributeName="cx" values="1010;942;1010" dur="32s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="560" cy="300" rx="220" ry="170" fill="url(#blob-c)">
+      <animate attributeName="cy" values="300;272;300" dur="38s" repeatCount="indefinite"/>
+    </ellipse>
   </g>
 
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 5; 0 0" dur="12s" repeatCount="indefinite"/>
-    <path d="M-20 236 C 120 210 200 246 300 224 S 430 188 520 214 S 650 246 760 218 S 900 186 1010 212 S 1180 240 1300 210 L1300 300 L-20 300 Z" fill="url(#ridge)" opacity="0.95"/>
-    <path d="M-20 262 C 140 246 240 274 360 258 S 520 232 640 256 S 800 280 920 258 S 1100 236 1300 262 L1300 300 L-20 300 Z" fill="#1B0D11"/>
+  <!-- 玻璃面板：底下的色斑糊化后裁进面板，形成折射 -->
+  <g clip-path="url(#panel)">
+    <rect x="28" y="28" width="1224" height="244" fill="#FFFFFF" fill-opacity="0.07"/>
+    <g filter="url(#refract)" opacity="0.75">
+      <ellipse cx="150" cy="26" rx="250" ry="180" fill="url(#blob-a)">
+        <animate attributeName="cx" values="150;206;150" dur="26s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="1010" cy="250" rx="280" ry="210" fill="url(#blob-b)">
+        <animate attributeName="cx" values="1010;942;1010" dur="32s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="300" cy="20" rx="180" ry="120" fill="#FFFFFF" fill-opacity="0.09" filter="url(#soft)"/>
+    </g>
+
+    <!-- 扫光 -->
+    <rect x="-380" y="28" width="330" height="244" fill="url(#sheen)" transform="skewX(-18)">
+      <animate attributeName="x" values="-380;1420;-380" dur="13s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <g>
-    <rect x="72" y="70" width="46" height="4" fill="#B4485A"/>
-    <text x="72" y="132" font-family="'Microsoft YaHei','Noto Sans CJK SC',-apple-system,sans-serif" font-size="62" font-weight="700" fill="#F2EAD8">uppercrusteve</text>
-    <text x="74" y="172" font-family="'Microsoft YaHei','Noto Sans CJK SC',sans-serif" font-size="25" fill="#C9A98A">定时流水线 · 数据抓取与清洗</text>
-    <text x="75" y="200" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#7E8894">采集带门禁 · 断点续跑 · 只认硬信号</text>
+  <rect x="28.5" y="28.5" width="1223" height="243" rx="22" fill="none" stroke="url(#edge)" stroke-width="1"/>
+  <rect x="28.5" y="28.5" width="1223" height="243" rx="22" fill="none" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="1" transform="translate(0 1)"/>
+
+  <g font-family="'Microsoft YaHei','Noto Sans CJK SC',-apple-system,sans-serif">
+    <rect x="74" y="70" width="46" height="4" fill="#D9536B"/>
+    <text x="74" y="134" font-size="58" font-weight="700" fill="#F3ECE0" letter-spacing="-1">uppercrusteve</text>
+    <text x="76" y="174" font-size="24" fill="#D8BFA9">定时流水线 · 数据抓取与清洗</text>
+    <text x="77" y="202" font-size="13" fill="#9DA6B1">采集带门禁 · 断点续跑 · 只认硬信号 · 原始快照先落盘</text>
   </g>
 
   <g font-family="'Microsoft YaHei',sans-serif" text-anchor="end">
-    <text x="1206" y="132" font-size="34" font-weight="700" fill="#F2EAD8">7</text>
-    <text x="1206" y="152" font-size="12" fill="#7E8894">open tools</text>
-    <text x="1206" y="188" font-size="34" font-weight="700" fill="#F2EAD8">286</text>
-    <text x="1206" y="208" font-size="12" fill="#7E8894">tests passing</text>
-  </g>
-
-  <g font-family="'Microsoft YaHei',sans-serif" text-anchor="end">
-    <text x="1206" y="246" font-size="12" fill="#6E7883">updated by CI, not by hand</text>
+    <text x="1206" y="132" font-size="34" font-weight="700" fill="#F3ECE0">7</text>
+    <text x="1206" y="152" font-size="12" fill="#9DA6B1">open tools</text>
+    <text x="1206" y="188" font-size="34" font-weight="700" fill="#F3ECE0">286</text>
+    <text x="1206" y="208" font-size="12" fill="#9DA6B1">tests passing</text>
+    <text x="1206" y="246" font-size="12" fill="#6C7683">updated by CI, not by hand</text>
   </g>
 </svg>

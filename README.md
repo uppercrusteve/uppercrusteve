@@ -6,7 +6,7 @@
 
 工具全部 MIT、带测试、写明边界。哪个不好用或者数字不对，直接开 issue。
 
-[夜班流水线](#夜班流水线) · [抓取与清洗](#抓取与清洗) · [写作与文档](#写作与文档) · [日常小工具](#日常小工具) · [开 issue](https://github.com/uppercrusteve/ams-check/issues)
+[液态玻璃站](https://uppercrusteve.github.io/liquid-glass-profile/) · [夜班流水线](#夜班流水线) · [抓取与清洗](#抓取与清洗) · [写作与文档](#写作与文档) · [日常小工具](#日常小工具) · [开 issue](https://github.com/uppercrusteve/ams-check/issues)
 
 ## 夜班流水线
 
@@ -87,6 +87,6 @@ zh-punct draft.md
 
 口径冲突就并排放着，不取平均；公开数据带来源和检索日期，直链失效也留标题；合成演示只用来跑通流程，首屏标注；网格值和实测分开写。每个仓库都有方法说明和「它不干什么」一节。
 
-<sub>数据卡与上面的发布列表由 [`.github/workflows/stats.yml`](./.github/workflows/stats.yml) 每天抓 GitHub API 生成；头图是手写 SVG，其中两个数字同样由该任务改写。示例除注明出处外均为合成数据，`ams-check` 的线路海拔是参考值。</sub>
+<sub>数据卡与上面的发布列表由 [`.github/workflows/stats.yml`](./.github/workflows/stats.yml) 每天抓 GitHub API 生成；头图是手写 SVG，其中两个数字同样由该任务改写，玻璃质感与 [液态玻璃站](https://uppercrusteve.github.io/liquid-glass-profile/) 同源。示例除注明出处外均为合成数据，`ams-check` 的线路海拔是参考值。</sub>
 
 ![仓库数据：仓库数、测试数、CI 结论与星标，由 Actions 每天生成](./assets/stats.svg)
