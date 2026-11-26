@@ -71,6 +71,15 @@ python -m skillcc build                       # 校验 + 写 dist/
 python -m upstream_gate path/to/candidate          # 判定
 ```
 
+
+### [entry-lint](https://github.com/uppercrusteve/entry-lint)
+
+审 skill 包的**入口面**：slash 入口是不是只收窄参数，检查项有没有真的落到 skill 文件里。夜班流水线 2026-11-27 自动产出，未过人工过目。
+
+```bash
+python -m entrylint path/to/pkg                 # 人看的判定
+```
+
 <!-- autopub:end -->
 
 ## 抓取与清洗
