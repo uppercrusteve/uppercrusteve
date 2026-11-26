@@ -64,5 +64,11 @@
     "group": "夜班",
     "tests": 21,
     "blurb": "审 skill 包的**入口面**：slash 入口是不是只收窄参数，检查项有没有真的落到 skill 文件里"
+  },
+  {
+    "repo": "manifest-lint",
+    "group": "夜班",
+    "tests": 29,
+    "blurb": "装之前先问一句：这个 skill 背着你联网了吗、读凭据了吗、调了你机器上没有的命令？"
   }
 ]

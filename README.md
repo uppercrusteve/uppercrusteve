@@ -80,6 +80,15 @@ python -m upstream_gate path/to/candidate          # 判定
 python -m entrylint path/to/pkg                 # 人看的判定
 ```
 
+
+### [manifest-lint](https://github.com/uppercrusteve/manifest-lint)
+
+装之前先问一句：这个 skill 背着你联网了吗、读凭据了吗、调了你机器上没有的命令？夜班流水线 2026-11-27 自动产出，未过人工过目。
+
+```bash
+python -m manifest path/to/pkg                     # 判定
+```
+
 <!-- autopub:end -->
 
 ## 抓取与清洗
