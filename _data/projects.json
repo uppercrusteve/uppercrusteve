@@ -52,5 +52,11 @@
     "group": "夜班",
     "tests": 57,
     "blurb": "一份 skill 源码，编译出多个 harness 的副本，并用内容哈希确认副本没被手改过"
+  },
+  {
+    "repo": "upstream-gate",
+    "group": "夜班",
+    "tests": 35,
+    "blurb": "把一个候选目录的 `upstream."
   }
 ]

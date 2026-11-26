@@ -62,6 +62,15 @@ python -m geomlint --print-guides --width 1280 --height 800 --cols 12 --margin 4
 python -m skillcc build                       # 校验 + 写 dist/
 ```
 
+
+### [upstream-gate](https://github.com/uppercrusteve/upstream-gate)
+
+把一个候选目录的 `upstream.md` 当合同来审：借鉴了谁、什么许可、能不能搬代码、我们到底改了什么。夜班流水线 2026-11-26 自动产出，未过人工过目。
+
+```bash
+python -m upstream_gate path/to/candidate          # 判定
+```
+
 <!-- autopub:end -->
 
 ## 抓取与清洗
