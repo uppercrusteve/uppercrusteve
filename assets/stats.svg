@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="518" viewBox="0 0 1280 518" role="img" aria-label="Portfolio data: 10 repositories, 414 tests, 4 green builds">
-<rect width="1280" height="518" rx="10" fill="#0E1116"/>
-<rect x="0.5" y="0.5" width="1279" height="517" rx="10" fill="none" stroke="#1E242C"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="586" viewBox="0 0 1280 586" role="img" aria-label="Portfolio data: 12 repositories, 464 tests, 4 green builds">
+<rect width="1280" height="586" rx="10" fill="#0E1116"/>
+<rect x="0.5" y="0.5" width="1279" height="585" rx="10" fill="none" stroke="#1E242C"/>
 <text x="36" y="44" font-family="'Microsoft YaHei',sans-serif" font-size="15" fill="#F2EAD8">仓库数据 · 由 Actions 每天生成，不手改</text>
-<text x="36" y="66" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">最近更新 2026-11-26 09:44 UTC</text>
-<text x="36" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">10 个仓库</text>
+<text x="36" y="66" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">最近更新 2026-11-27 09:50 UTC</text>
+<text x="36" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">12 个仓库</text>
 <text x="36" y="120" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#7E8894">全部公开</text>
-<text x="336" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">414 项测试</text>
+<text x="336" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">464 项测试</text>
 <text x="336" y="120" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#7E8894">pytest + vitest</text>
-<text x="636" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">4/10 CI 通过</text>
+<text x="636" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">4/12 CI 通过</text>
 <text x="636" y="120" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#7E8894">main 分支最近一次</text>
 <text x="936" y="104" font-family="'Microsoft YaHei',sans-serif" font-size="19" font-weight="700" fill="#F2EAD8">0 stars</text>
 <text x="936" y="120" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#7E8894">实时</text>
@@ -17,64 +17,77 @@
 <text x="1010" y="158" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">56 tests</text>
 <text x="1090" y="158" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
 <text x="1128" y="158" font-family="sans-serif" font-size="13" fill="#5FA97C">✓</text>
-<text x="1224" y="158" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">6 天前</text>
+<text x="1224" y="158" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">7 天前</text>
 <text x="40" y="192" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#F2EAD8">citecheck-zh</text>
 <text x="238" y="192" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">中文引文—文献表一致性检查</text>
 <text x="1010" y="192" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">66 tests</text>
 <text x="1090" y="192" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
 <text x="1128" y="192" font-family="sans-serif" font-size="13" fill="#5FA97C">✓</text>
-<text x="1224" y="192" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">今天</text>
+<text x="1224" y="192" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">1 天前</text>
 <rect x="28" y="205" width="1224" height="30" rx="5" fill="#131820"/>
 <text x="40" y="226" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#F2EAD8">ams-check</text>
 <text x="238" y="226" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">高处上升速率与 Lake Louise 自评，离线可用</text>
 <text x="1010" y="226" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">23 tests</text>
 <text x="1090" y="226" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
 <text x="1128" y="226" font-family="sans-serif" font-size="13" fill="#5FA97C">✓</text>
-<text x="1224" y="226" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">6 天前</text>
+<text x="1224" y="226" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">7 天前</text>
 <text x="40" y="260" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#F2EAD8">zh-punct</text>
 <text x="238" y="260" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">中文标点形态体检，误报优先压下去</text>
 <text x="1010" y="260" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">86 tests</text>
 <text x="1090" y="260" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
 <text x="1128" y="260" font-family="sans-serif" font-size="13" fill="#5FA97C">✓</text>
-<text x="1224" y="260" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">6 天前</text>
+<text x="1224" y="260" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">7 天前</text>
 <rect x="28" y="273" width="1224" height="30" rx="5" fill="#131820"/>
 <text x="40" y="294" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#F2EAD8">forge-lint</text>
 <text x="238" y="294" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">给「一夜之间攒出来的 skill / 工具目录」做体检</text>
 <text x="1010" y="294" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">21 tests</text>
 <text x="1090" y="294" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
 <text x="1128" y="294" font-family="sans-serif" font-size="13" fill="#4E5762">–</text>
-<text x="1224" y="294" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">1 天前</text>
+<text x="1224" y="294" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">2 天前</text>
 <text x="40" y="328" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#F2EAD8">stage-ckpt</text>
 <text x="238" y="328" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">给夜间流水线的阶段加「步级断点」：断在哪步，下个窗口从哪步续</text>
 <text x="1010" y="328" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">19 tests</text>
 <text x="1090" y="328" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
 <text x="1128" y="328" font-family="sans-serif" font-size="13" fill="#4E5762">–</text>
-<text x="1224" y="328" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">1 天前</text>
+<text x="1224" y="328" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">2 天前</text>
 <rect x="28" y="341" width="1224" height="30" rx="5" fill="#131820"/>
 <text x="40" y="362" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#F2EAD8">score-bench</text>
 <text x="238" y="362" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">一个打分器的排序回归台</text>
 <text x="1010" y="362" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">15 tests</text>
 <text x="1090" y="362" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
 <text x="1128" y="362" font-family="sans-serif" font-size="13" fill="#4E5762">–</text>
-<text x="1224" y="362" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">1 天前</text>
+<text x="1224" y="362" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">2 天前</text>
 <text x="40" y="396" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#F2EAD8">geom-lint</text>
 <text x="238" y="396" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">把「版面歪了」变成一组能进 CI 的几何谓词</text>
 <text x="1010" y="396" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">36 tests</text>
 <text x="1090" y="396" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
 <text x="1128" y="396" font-family="sans-serif" font-size="13" fill="#4E5762">–</text>
-<text x="1224" y="396" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">今天</text>
+<text x="1224" y="396" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">1 天前</text>
 <rect x="28" y="409" width="1224" height="30" rx="5" fill="#131820"/>
 <text x="40" y="430" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#F2EAD8">skillcc</text>
 <text x="238" y="430" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">一份 skill 源码，编译出多个 harness 的副本，并用内容哈希确认副本没被手改过</text>
 <text x="1010" y="430" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">57 tests</text>
 <text x="1090" y="430" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
 <text x="1128" y="430" font-family="sans-serif" font-size="13" fill="#4E5762">–</text>
-<text x="1224" y="430" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">今天</text>
+<text x="1224" y="430" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">1 天前</text>
 <text x="40" y="464" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#F2EAD8">upstream-gate</text>
 <text x="238" y="464" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">把一个候选目录的 `upstream.</text>
 <text x="1010" y="464" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">35 tests</text>
 <text x="1090" y="464" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
 <text x="1128" y="464" font-family="sans-serif" font-size="13" fill="#4E5762">–</text>
-<text x="1224" y="464" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">今天</text>
-<text x="36" y="502" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762">测试数取自各仓库测试文件，CI 状态取自最近一次工作流运行；星标与推送时间为 GitHub API 实时值。</text>
+<text x="1224" y="464" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">1 天前</text>
+<rect x="28" y="477" width="1224" height="30" rx="5" fill="#131820"/>
+<text x="40" y="498" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#F2EAD8">entry-lint</text>
+<text x="238" y="498" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">审 skill 包的**入口面**：slash 入口是不是只收窄参数，检查项有没有真的落到 skill 文件里</text>
+<text x="1010" y="498" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">21 tests</text>
+<text x="1090" y="498" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
+<text x="1128" y="498" font-family="sans-serif" font-size="13" fill="#4E5762">–</text>
+<text x="1224" y="498" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">今天</text>
+<text x="40" y="532" font-family="'Microsoft YaHei',sans-serif" font-size="13" font-weight="700" fill="#F2EAD8">manifest-lint</text>
+<text x="238" y="532" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894">装之前先问一句：这个 skill 背着你联网了吗、读凭据了吗、调了你机器上没有的命令？</text>
+<text x="1010" y="532" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">29 tests</text>
+<text x="1090" y="532" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#7E8894" text-anchor="end">0 ★</text>
+<text x="1128" y="532" font-family="sans-serif" font-size="13" fill="#4E5762">–</text>
+<text x="1224" y="532" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762" text-anchor="end">今天</text>
+<text x="36" y="570" font-family="'Microsoft YaHei',sans-serif" font-size="11" fill="#4E5762">测试数取自各仓库测试文件，CI 状态取自最近一次工作流运行；星标与推送时间为 GitHub API 实时值。</text>
 </svg>
