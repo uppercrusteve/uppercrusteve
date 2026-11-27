@@ -76,5 +76,11 @@
     "group": "夜班",
     "tests": 12,
     "blurb": "agent 调外部命令，最烦的不是命令本身，是每家输出格式都不一样：有的往 stdout 打进度，有的把错误混进 std"
+  },
+  {
+    "repo": "counter-cover",
+    "group": "夜班",
+    "tests": 18,
+    "blurb": "「反例要占三成」这句话谁都会说，没人量过"
   }
 ]

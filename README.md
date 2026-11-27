@@ -98,6 +98,15 @@ agent 调外部命令，最烦的不是命令本身，是每家输出格式都�
 python agentrun.py --json -- python -c "print('hi')"
 ```
 
+
+### [counter-cover](https://github.com/uppercrusteve/counter-cover)
+
+「反例要占三成」这句话谁都会说，没人量过。这个工具把它变成两个能跑的数：反例区占正文多少字、已知的十二类图表缺陷被当成几条反例写下来。只认反例区里的提法——正文里顺口说一句「注意标签重叠」不算，因为那正是出事的写法。夜班流水线 2026-11-28 自动产出，未过人工过目。
+
+```bash
+python cover.py score --doc fixtures/good.md          # PASS, 退出 0
+```
+
 <!-- autopub:end -->
 
 ## 抓取与清洗
