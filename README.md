@@ -89,6 +89,15 @@ python -m entrylint path/to/pkg                 # 人看的判定
 python -m manifest path/to/pkg                     # 判定
 ```
 
+
+### [agentrun](https://github.com/uppercrusteve/agentrun)
+
+agent 调外部命令，最烦的不是命令本身，是每家输出格式都不一样：有的往 stdout 打进度，有的把错误混进 stdout，有的挂住不动，有的一次吐 40 万字符。这个装一层信封，把「跑没跑成、为什么没跑成、输出了多少」变成固定字段，让调用方只管读 JSON。夜班流水线 2026-11-28 自动产出，未过人工过目。
+
+```bash
+python agentrun.py --json -- python -c "print('hi')"
+```
+
 <!-- autopub:end -->
 
 ## 抓取与清洗
